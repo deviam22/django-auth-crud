@@ -1,0 +1,36 @@
+{% extends 'layouts/base.html' %}
+
+
+{% block content %}
+
+<main class="container py-5">
+
+    <div class="card">
+        <div class="card-body">
+            <h1 class="display-1 text-center">Django app</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero amet dignissimos dolorem blanditiis magnam,
+                optio unde ullam provident saepe. Quaerat quidem error, nulla quo soluta fuga expedita provident
+                exercitationem sunt, quod et vel quis facilis voluptate! Optio ratione expedita voluptates, sed
+                consequatur
+                libero perspiciatis vitae incidunt ex quaerat atque harum reprehenderit aut praesentium hic repudiandae,
+                accusantium eaque officiis exercitationem nostrum? Iure dolorum, deleniti corporis dicta alias eius vel
+                magni id aspernatur inventore, sunt quibusdam consequatur ea labore rem quod! Iste soluta minima nam
+                quae
+                nesciunt. Et ipsam earum laboriosam quis incidunt enim aperiam, architecto ad, aliquid illum eius quae
+                illo.
+            </p>
+
+            <div class="text-center">
+                <a class="btn btn-secondary" href="{% url 'signin' %}">Signin</a>
+                <a class="btn btn-primary" href="{% url 'signup' %}">Signup</a>
+                
+            </div>
+
+        </div>
+    </div>
+</main>
+
+
+
+
+{% endblock %}
